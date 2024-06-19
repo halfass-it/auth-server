@@ -3,7 +3,7 @@ import asyncio
 
 from jsonargparse import CLI
 
-from server.server import Server
+from server.auth_server import AuthServer
 
 
 class Main:
@@ -15,7 +15,7 @@ class Main:
     self.cache_dir: str = cache_dir
 
   def run(self):
-    server = Server(self.ip, self.port, self.buffer_size, self.timeout, self.cache_dir)
+    server = AuthServer(self.ip, self.port, self.buffer_size, self.timeout, self.cache_dir)
     asyncio.run(server.start())
 
 
