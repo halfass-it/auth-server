@@ -31,7 +31,7 @@ dev = ["Sphinx (==7.2.5)", "colorama (==0.4.5)", "colorama (==0.4.6)", "exceptio
 
 [[package]]
 name = "utils"
-version = "1.0.2"
+version = "0.5.3"
 description = ""
 optional = false
 python-versions = ">=3.6, <4.0"
@@ -45,7 +45,7 @@ loguru = "*"
 type = "git"
 url = "https://github.com/halfass-it/utils.git"
 reference = "HEAD"
-resolved_reference = "8941d20298749533d78615ed8f08a814c18c5f5a"
+resolved_reference = "e6377f7620dd0e990c96bfbb6b5713c37f9c33a9"
 
 [[package]]
 name = "win32-setctime"
